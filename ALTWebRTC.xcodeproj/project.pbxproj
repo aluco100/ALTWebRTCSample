@@ -13,6 +13,7 @@
 		D0A92EC1248C3D42005F21A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A92EBF248C3D42005F21A9 /* Main.storyboard */; };
 		D0A92EC3248C3D43005F21A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A92EC2248C3D43005F21A9 /* Assets.xcassets */; };
 		D0A92EC6248C3D43005F21A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A92EC4248C3D43005F21A9 /* LaunchScreen.storyboard */; };
+		D0A92ECF248C3FA4005F21A9 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A92ECE248C3FA4005F21A9 /* WebRTC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D0A92EC2248C3D43005F21A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0A92EC5248C3D43005F21A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0A92EC7248C3D43005F21A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A92ECE248C3FA4005F21A9 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
 		EA54037830E3031B2F47625D /* Pods-ALTWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTWebRTC.debug.xcconfig"; path = "Target Support Files/Pods-ALTWebRTC/Pods-ALTWebRTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5F1B6F45FD676C277A3B02F /* Pods_ALTWebRTC.framework in Frameworks */,
+				D0A92ECF248C3FA4005F21A9 /* WebRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,11 +84,20 @@
 				D0A92EB9248C3D42005F21A9 /* AppDelegate.swift */,
 				D0A92EBD248C3D42005F21A9 /* ViewController.swift */,
 				D0A92EBF248C3D42005F21A9 /* Main.storyboard */,
+				D0A92ECD248C3F39005F21A9 /* Frameworks */,
 				D0A92EC2248C3D43005F21A9 /* Assets.xcassets */,
 				D0A92EC4248C3D43005F21A9 /* LaunchScreen.storyboard */,
 				D0A92EC7248C3D43005F21A9 /* Info.plist */,
 			);
 			path = ALTWebRTC;
+			sourceTree = "<group>";
+		};
+		D0A92ECD248C3F39005F21A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A92ECE248C3FA4005F21A9 /* WebRTC.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +363,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZLC9VRAR2N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ALTWebRTC/Frameworks",
+				);
 				INFOPLIST_FILE = ALTWebRTC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -371,6 +387,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZLC9VRAR2N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ALTWebRTC/Frameworks",
+				);
 				INFOPLIST_FILE = ALTWebRTC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
