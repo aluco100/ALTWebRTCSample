@@ -15,6 +15,8 @@
 		D0A92EC6248C3D43005F21A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A92EC4248C3D43005F21A9 /* LaunchScreen.storyboard */; };
 		D0A92ECF248C3FA4005F21A9 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A92ECE248C3FA4005F21A9 /* WebRTC.framework */; };
 		D0A92ED4248C4081005F21A9 /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92ED3248C4081005F21A9 /* CameraSession.swift */; };
+		D0A92ED8248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92ED7248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift */; };
+		D0A92EDA248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		D0A92EC7248C3D43005F21A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A92ECE248C3FA4005F21A9 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
 		D0A92ED3248C4081005F21A9 /* CameraSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
+		D0A92ED7248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCSimulatorVideoEncoderFactory.swift; sourceTree = "<group>"; };
+		D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCSimulatorVideoDecoderFactory.swift; sourceTree = "<group>"; };
 		EA54037830E3031B2F47625D /* Pods-ALTWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTWebRTC.debug.xcconfig"; path = "Target Support Files/Pods-ALTWebRTC/Pods-ALTWebRTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,9 +110,19 @@
 		D0A92ED0248C3FFC005F21A9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D0A92ED6248C43FD005F21A9 /* WebRTC */,
 				D0A92ED3248C4081005F21A9 /* CameraSession.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D0A92ED6248C43FD005F21A9 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */,
+				D0A92ED7248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift */,
+			);
+			path = WebRTC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A92EDA248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift in Sources */,
+				D0A92ED8248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift in Sources */,
 				D0A92EBE248C3D42005F21A9 /* ViewController.swift in Sources */,
 				D0A92ED4248C4081005F21A9 /* CameraSession.swift in Sources */,
 				D0A92EBA248C3D42005F21A9 /* AppDelegate.swift in Sources */,
