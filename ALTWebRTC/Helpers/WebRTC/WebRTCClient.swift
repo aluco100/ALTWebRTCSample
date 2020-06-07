@@ -97,12 +97,12 @@ class WebRTCClient: NSObject, RTCPeerConnectionDelegate, RTCVideoViewDelegate, R
         }
     }
     
-    fileprivate func setupLocalViewFrame(frame: CGRect){
+    func setupLocalViewFrame(frame: CGRect){
         localView.frame = frame
         localRenderView?.frame = localView.frame
     }
     
-    fileprivate func setupRemoteViewFrame(frame: CGRect){
+    func setupRemoteViewFrame(frame: CGRect){
         remoteView.frame = frame
         remoteRenderView?.frame = remoteView.frame
     }
