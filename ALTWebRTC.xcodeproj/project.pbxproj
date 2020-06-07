@@ -19,6 +19,8 @@
 		D0A92EDA248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */; };
 		D0A92EDC248C4519005F21A9 /* RTCCustomFrameCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92EDB248C4519005F21A9 /* RTCCustomFrameCapturer.swift */; };
 		D0A92EDE248C8B10005F21A9 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92EDD248C8B10005F21A9 /* WebRTCClient.swift */; };
+		D0A92EE2248C8E00005F21A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92EE0248C8E00005F21A9 /* HomeViewController.swift */; };
+		D0A92EE3248C8E00005F21A9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A92EE1248C8E00005F21A9 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCSimulatorVideoDecoderFactory.swift; sourceTree = "<group>"; };
 		D0A92EDB248C4519005F21A9 /* RTCCustomFrameCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCCustomFrameCapturer.swift; sourceTree = "<group>"; };
 		D0A92EDD248C8B10005F21A9 /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
+		D0A92EE0248C8E00005F21A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D0A92EE1248C8E00005F21A9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		EA54037830E3031B2F47625D /* Pods-ALTWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTWebRTC.debug.xcconfig"; path = "Target Support Files/Pods-ALTWebRTC/Pods-ALTWebRTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +98,7 @@
 				D0A92EB9248C3D42005F21A9 /* AppDelegate.swift */,
 				D0A92EBD248C3D42005F21A9 /* ViewController.swift */,
 				D0A92EBF248C3D42005F21A9 /* Main.storyboard */,
+				D0A92EDF248C8DCC005F21A9 /* Controllers */,
 				D0A92ED0248C3FFC005F21A9 /* Helpers */,
 				D0A92ECD248C3F39005F21A9 /* Frameworks */,
 				D0A92EC2248C3D43005F21A9 /* Assets.xcassets */,
@@ -129,6 +134,15 @@
 				D0A92EDD248C8B10005F21A9 /* WebRTCClient.swift */,
 			);
 			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		D0A92EDF248C8DCC005F21A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0A92EE0248C8E00005F21A9 /* HomeViewController.swift */,
+				D0A92EE1248C8E00005F21A9 /* HomeViewController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +208,7 @@
 				D0A92EC6248C3D43005F21A9 /* LaunchScreen.storyboard in Resources */,
 				D0A92EC3248C3D43005F21A9 /* Assets.xcassets in Resources */,
 				D0A92EC1248C3D42005F21A9 /* Main.storyboard in Resources */,
+				D0A92EE3248C8E00005F21A9 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +264,7 @@
 				D0A92EDA248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift in Sources */,
 				D0A92ED8248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift in Sources */,
 				D0A92EDC248C4519005F21A9 /* RTCCustomFrameCapturer.swift in Sources */,
+				D0A92EE2248C8E00005F21A9 /* HomeViewController.swift in Sources */,
 				D0A92EBE248C3D42005F21A9 /* ViewController.swift in Sources */,
 				D0A92ED4248C4081005F21A9 /* CameraSession.swift in Sources */,
 				D0A92EBA248C3D42005F21A9 /* AppDelegate.swift in Sources */,

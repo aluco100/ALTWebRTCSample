@@ -7,5 +7,6 @@ target 'ALTWebRTC' do
 
   # Pods for ALTWebRTC
   pod 'Starscream'
+  pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git'
 
 end

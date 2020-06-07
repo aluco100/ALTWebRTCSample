@@ -1,16 +1,28 @@
 PODS:
   - Starscream (4.0.3)
+  - SwiftValidator (4.0.0)
 
 DEPENDENCIES:
   - Starscream
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`)
 
 SPEC REPOS:
   trunk:
     - Starscream
 
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: d370353b7a0ce758a53b189c81e485dcd53c99a4
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
 SPEC CHECKSUMS:
   Starscream: ef06f0961fff0880bca0604416d61141e4faca67
+  SwiftValidator: 249b6b3ae3b294266c5b9de134d94f18f2d5aa47
 
-PODFILE CHECKSUM: b7064077dc7749f7984531b9e66a2f1ecb11136c
+PODFILE CHECKSUM: d5505f06ddc6723b6ba091582f0e8b566b0db425
 
 COCOAPODS: 1.9.1
