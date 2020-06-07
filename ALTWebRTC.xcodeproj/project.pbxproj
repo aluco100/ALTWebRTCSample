@@ -17,6 +17,7 @@
 		D0A92ED4248C4081005F21A9 /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92ED3248C4081005F21A9 /* CameraSession.swift */; };
 		D0A92ED8248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92ED7248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift */; };
 		D0A92EDA248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */; };
+		D0A92EDC248C4519005F21A9 /* RTCCustomFrameCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A92EDB248C4519005F21A9 /* RTCCustomFrameCapturer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D0A92ED3248C4081005F21A9 /* CameraSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
 		D0A92ED7248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCSimulatorVideoEncoderFactory.swift; sourceTree = "<group>"; };
 		D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCSimulatorVideoDecoderFactory.swift; sourceTree = "<group>"; };
+		D0A92EDB248C4519005F21A9 /* RTCCustomFrameCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCCustomFrameCapturer.swift; sourceTree = "<group>"; };
 		EA54037830E3031B2F47625D /* Pods-ALTWebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALTWebRTC.debug.xcconfig"; path = "Target Support Files/Pods-ALTWebRTC/Pods-ALTWebRTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 		D0A92ED6248C43FD005F21A9 /* WebRTC */ = {
 			isa = PBXGroup;
 			children = (
+				D0A92EDB248C4519005F21A9 /* RTCCustomFrameCapturer.swift */,
 				D0A92ED9248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift */,
 				D0A92ED7248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift */,
 			);
@@ -242,6 +245,7 @@
 			files = (
 				D0A92EDA248C44B2005F21A9 /* RTCSimulatorVideoDecoderFactory.swift in Sources */,
 				D0A92ED8248C4435005F21A9 /* RTCSimulatorVideoEncoderFactory.swift in Sources */,
+				D0A92EDC248C4519005F21A9 /* RTCCustomFrameCapturer.swift in Sources */,
 				D0A92EBE248C3D42005F21A9 /* ViewController.swift in Sources */,
 				D0A92ED4248C4081005F21A9 /* CameraSession.swift in Sources */,
 				D0A92EBA248C3D42005F21A9 /* AppDelegate.swift in Sources */,
