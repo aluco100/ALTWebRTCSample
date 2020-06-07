@@ -18,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.makeKeyAndVisible()
         
+        let homeVC = HomeViewController(nibName: String(describing: HomeViewController.self), bundle: Bundle(for: HomeViewController.self))
+        let nav = UINavigationController(rootViewController: homeVC)
+        window?.rootViewController = nav
+        
         return true
     }
 
